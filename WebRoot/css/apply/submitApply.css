@@ -1,0 +1,62 @@
+#main-content {
+	background-color: #fafafa;
+	float: left;
+	margin: 5px 5px 5px 0px;
+	width: 740px;
+	height: 790px;
+	border: 1px solid #ddd;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+}
+
+#apply-intro{
+	margin:10px 20px 5px 20px;
+	height:33px;
+	width:180px;
+	font-size: 14px;
+}
+
+#apply-intro .apply-intro-title{
+	float:left;
+	background: #eee url("/EMSystem/pic/apply/jiantou.gif") no-repeat left center ;
+	width:160px;
+	border:1px solid #bbb;
+	border-right:none;
+	line-height:32px;
+	text-indent:33px;
+	height:32px;
+}
+#apply-intro .apply-intro-jiantou{
+	float:left;
+	background:url("/EMSystem/pic/apply/step.png") no-repeat left center;
+	width:10px;
+	height:33px;
+}
+#apply-form-wrapper{
+	margin:10px 20px 0px 20px;
+	width:700px;
+	height:300px;
+	border-top: 10px solid #CCC;
+	border-bottom: 10px solid #CCC;
+}
+#apply-form{
+	width:700px;
+	margin:10px 0px;
+}
+.apply-item{
+	width:100%;
+	height:30px;
+}
+.apply-item label{
+	display: inline-block;
+	width: 150px;
+}
+.apply-item .basic-input{
+	width:450px;
+}
+.apply-item .submit{
+	margin-top:20px;
+	padding:6px;
+	width:100px;
+	
+}

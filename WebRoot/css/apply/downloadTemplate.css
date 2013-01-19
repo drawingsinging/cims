@@ -1,0 +1,70 @@
+#main-content {
+	background-color: #fafafa;
+	float: left;
+	margin: 5px 5px 5px 0px;
+	width: 740px;
+	height: 790px;
+	border: 1px solid #ddd;
+}
+#template-select{
+	margin: 30px 20px 5px 10px;
+	font: 14px/1.6 arial,helvetica,sans-serif;
+	
+	text-indent: 33px;
+	height: 33px;
+	vertical-align: middle;
+	line-height: 33px;
+	background: url(/EMSystem/pic/apply/jiantou.gif) no-repeat left center;
+}
+
+#template-select select{
+	margin:0px 5px;
+	width: 140px;
+	
+}
+
+
+#template-list{
+	width:100%;
+	margin-top:20px;
+}
+#template-list table{
+	margin:0 auto;
+	 border-collapse: collapse;
+	  width:700px;
+	   height:69px;
+	    
+}
+#template-list td a{
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.t_header{
+	height:30px;
+	
+	color: #585858;
+}
+.t_item{
+	height:30px;
+}
+.t_doc{
+	margin-left:20px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/apply/doc.gif") no-repeat left center;
+}
+.t_do{
+	float:left;
+	
+}
+.t_preview{
+	margin-left:15px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/apply/preview.gif") no-repeat left center;
+}
+.t_download{
+	margin-left:20px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/apply/download.gif") no-repeat left center;
+}
+

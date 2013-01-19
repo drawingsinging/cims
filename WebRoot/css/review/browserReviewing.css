@@ -1,0 +1,105 @@
+
+
+#main-content {
+	background-color: #fafafa;
+	float: left;
+	margin: 5px 5px 5px 0px;
+	width: 740px;
+	height: 790px;
+	border: 1px solid #ddd;
+}
+#review-intro{
+	margin:10px 20px 5px 20px;
+	height:33px;
+	font-size: 14px;
+}
+
+#review-intro .review-intro-title{
+	float:left;
+	background: #ebebeb url("/EMSystem/pic/review/jiantou.gif") no-repeat left center ;
+	width:260px;
+	border:1px solid #bbb;
+	
+	line-height:32px;
+	text-indent:33px;
+	height:32px;
+	font-weight:bold;
+	color:#585858;
+}
+
+
+#pending-wrapper{
+	margin:10px 20px 0px 20px;
+	width:700px;
+	height:700px;
+	border-top: 5px solid #CCC;
+	border-bottom:5px solid #CCC;
+	
+}
+
+
+
+#pending-list{
+	width:100%;
+	margin-top:10px;
+}
+#pending-list table{
+	margin:0 auto;
+	 border-collapse: collapse;
+	  width:700px;
+	   height:69px;
+	   background:#fff;
+}
+#pending-list td a{
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.r_header{
+	height:30px;
+	background:#d7ecf1;
+	color: #585858;
+}
+.r_item{
+	height:30px;
+}
+.r_doc{
+	margin-left:20px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/review/doc.gif") no-repeat left center;
+}
+.r_do{
+	float:left;
+	
+}
+.r_do:hover{
+	color:red;
+	
+}
+.r_preview{
+	margin-left:4px;
+	padding-left:13px;
+	background:url("/EMSystem/pic/review/preview.gif") no-repeat left center;
+}
+.r_download{
+	margin-left:4px;
+	padding-left:13px;
+	background:url("/EMSystem/pic/review/download.gif") no-repeat left center;
+}
+.r_edit{
+	margin-left:4px;
+	padding-left:13px;
+	background:url("/EMSystem/pic/review/edit.gif") no-repeat left center;
+}
+.r_delete{
+	margin-left:4px;
+	padding-left:13px;
+	background:url("/EMSystem/pic/review/delete.gif") no-repeat left center;
+}
+.r_review{
+	margin-left:10px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/review/goto.gif") no-repeat left center;
+}
+

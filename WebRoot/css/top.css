@@ -1,0 +1,104 @@
+#header {
+	margin: 0 auto;
+	height: 80px;
+	width: 1000px;
+	padding: 2px 2px 2px 2px;
+}
+
+#header-logo {
+	padding-top: 5px;
+	padding-left: 10px;
+	float: left;
+	cursor: pointer;
+}
+/*----header nav--*/
+#top-nav {
+	float: left;
+	height: 40px;
+	display: block;
+	padding: 0px;
+	width: 630px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-color: #eee;
+}
+
+#top-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#top-nav ul li { /* width and height of the menu items */
+	float: left;
+	overflow: hidden;
+	position: relative;
+	line-height: 40px;
+	text-align: center;
+}
+
+#top-nav ul li a { /* must be postioned relative  */
+	position: relative;
+	display: block;
+	width: 90px;
+	height: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#top-nav ul li a span { /* all layers will be absolute positioned */
+	position: absolute;
+	left: 0;
+	width: 90px;
+}
+
+#top-nav ul li a span.out {
+	top: 0px;
+}
+
+#top-nav ul li a span.over {
+	top: -40px;
+}
+
+#top-nav ul li a {
+	color: #666;
+}
+
+#top-nav ul li a span.over {
+	color: #fff;
+	background-color: #9b0d14;
+}
+
+#header-side {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	width: 200px;
+	height: 25px;
+	margin-top: 5px;
+	margin-right: 35px;
+}
+
+#header-side span {
+	margin-right: 10px;
+}
+
+#header-side a {
+	color: #369;
+	text-decoration: none;
+}
+
+#manage-main {
+	float: right;
+}
+
+#logout {
+	float: right;
+	width: 40px;
+}
+
+.clearfix {
+	clear: both;
+}

@@ -1,0 +1,96 @@
+
+
+#main-content {
+	background-color: #fafafa;
+	float: left;
+	margin: 5px 5px 5px 0px;
+	width: 740px;
+	height: 790px;
+	border: 1px solid #ddd;
+}
+#infoserv-intro{
+	margin:10px 20px 5px 20px;
+	height:33px;
+	font-size: 14px;
+}
+
+.infoserv-intro-title{
+	float:left;
+	background: #ebebeb url("/EMSystem/pic/message/jiantou.gif") no-repeat left center ;
+	
+	border:1px solid #bbb;
+	
+	line-height:32px;
+	text-indent:33px;
+	height:32px;
+	font-weight:bold;
+	color:#585858;
+	padding-right:20px;
+}
+
+#infoserv-wrapper{
+	margin:10px 20px 0px 20px;
+	width:700px;
+	height:700px;
+	border-top: 5px solid #CCC;
+	
+	
+}
+#infoserv-wrapper ul{
+	list-style: none;
+	margin-top:20px;
+	font-size:14px;
+	
+}
+#infoserv-wrapper ul li{
+	margin:10px 0px 0px 0px; 
+	overflow: hidden;
+	background:  url("/EMSystem/pic/message/dot.gif") no-repeat left center ;
+	padding-left:10px;
+}
+#infoserv-wrapper ul li a{
+	text-decoration: none;
+	color:black;
+}
+
+#infoserv-wrapper ul li a:link, #infoserv-wrapper ul li a:active, #infoserv-wrapper ul li a:visited {
+color: #1E1E1E;
+text-decoration: none;
+}
+#infoserv-wrapper ul li a:hover{
+	color: #931B1D;
+text-decoration: none;
+}
+
+.paginator {
+width: 100%;
+zoom: 1;
+font: 14px Arial,Helvetica,sans-serif;
+color: #AAA;
+margin:30px 0px;;
+line-height: 150%;
+text-align: center;
+
+}
+.paginator .prev {
+margin-right: 10px;
+}
+.paginator a,  .thispage, .break{
+padding: 0 2px;
+margin: 1px;
+}
+.paginator a:link {
+color: #37A;
+text-decoration: none;
+}
+.paginator a:visited {
+color: #669;
+text-decoration: none;
+}
+.paginator .thispage {
+color: white;
+background: #931B1D;
+}
+
+
+

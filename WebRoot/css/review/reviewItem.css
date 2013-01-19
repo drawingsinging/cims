@@ -1,0 +1,268 @@
+/*---main-content---*/
+#main {
+	height: 1000px;
+}
+
+#main-content {
+	position: absolute;
+	background-color: #fafafa;
+	left: 5px;
+	margin: 5px 5px 5px 0px;
+	width: 948px;
+	height: 990px;
+	border: 1px solid #ddd;
+}
+
+#review-intro {
+	margin: 10px 20px 5px 20px;
+	height: 33px;
+	font-size: 14px;
+}
+
+#review-intro .review-intro-title {
+	float: left;
+	background: #ebebeb url("/EMSystem/pic/review/jiantou.gif") no-repeat
+		left center;
+	width: 160px;
+	border: 1px solid #bbb;
+	line-height: 32px;
+	text-indent: 33px;
+	height: 32px;
+	font-weight: bold;
+	color: #585858;
+}
+
+#review-intro .review-intro-button {
+	margin-left: 20px;
+	float: left;
+	background-color: #D14836;
+	width: 60px;
+	border: 1px solid #D14836;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 5px; height : 32px;
+	font-size: 13px;
+	color: #FFF;
+	height: 32px;
+}
+
+#review-intro a:hover {
+	font-weight: bold;
+}
+
+#pending-wrapper {
+	margin: 10px 20px 0px 20px;
+	width: 910px;
+	height: 900px;
+	border-top: 5px solid #CCC;
+	border-bottom: 5px solid #CCC;
+}
+
+#pending-list {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#pending-list table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 910px;
+	height: 69px;
+	background: #fff;
+}
+
+#pending-list td a {
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.r_header {
+	height: 30px;
+	background: #d7ecf1;
+	color: #585858;
+}
+
+.r_item {
+	height: 30px;
+}
+
+.r_doc {
+	margin-left: 20px;
+	padding-left: 20px;
+	background: url("/EMSystem/pic/review/doc.gif") no-repeat left center;
+}
+
+.r_do {
+	float: left;
+}
+
+.r_do:hover {
+	color: red;
+}
+
+.r_preview {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("/EMSystem/pic/review/preview.gif") no-repeat left center;
+}
+
+.r_download {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("/EMSystem/pic/review/download.gif") no-repeat left
+		center;
+}
+
+.r_edit {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("/EMSystem/pic/review/edit.gif") no-repeat left center;
+}
+
+.r_delete {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("/EMSystem/pic/review/delete.gif") no-repeat left center;
+}
+
+.r_review {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("/EMSystem/pic/review/goto.gif") no-repeat left center;
+}
+
+#review-iframe{
+	width:650px;
+	float:left;
+}
+#review-result{
+	width:250px;
+	float:left;
+	margin-left:10px;
+}
+#review-iframe-nav {
+	margin-top: 20px;
+	width: 650px;
+	height: 30px;
+	padding-bottom: 1px;
+}
+
+
+#review-iframe-nav ul {
+	list-style: none;
+}
+
+#review-iframe-nav ul li {
+	float: left;
+	overflow: hidden;
+	line-height: 30px;
+	text-align: center;
+}
+
+#review-iframe-nav ul li span {
+	
+	
+	display: block;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	border: 1px solid #AAA; 
+	border-bottom: none;
+	color : #444;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+	background:#eee;
+}
+
+#review-iframe-nav ul li span.rin-highlight {
+	font-weight:bold;
+	background:#fff;
+}
+
+
+#review-result-nav{
+	margin-top: 20px;
+	
+	width: 250px;
+	height: 30px;
+	padding-bottom: 1px;
+}
+#review-result-nav span{
+	display: block;
+	margin: 0px 10px 0px 0px;
+	width:100px;
+	border: 1px solid #AAA; 
+	border-bottom: none;
+	color : #444;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	background:#fff;
+}
+#review-result-main{
+	border: 1px solid #AAA;
+	width:250px;
+	height:100px;
+}
+#review-result-choose{
+	width:250px;
+	height:100px;
+}
+#review-result-choose .review-button{
+	float:left;
+	width:70px;
+	height:30px;
+	margin-left:35px;
+	margin-top:20px;
+	text-align: center;
+	
+	font-size: 14px;
+	font-weight:bold;
+	
+	cursor:pointer;
+	line-height:30px;
+	border-radius: 5px;
+}
+
+
+#review-pass{
+	background-color: #fafafa;
+	border: 1px solid #666;
+	color: #666;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#review-result-choose .passchosen{
+	background-color: #4D90FE;
+	border: 1px solid #3079ED;
+	color:#fff;
+}
+#review-notpass{
+	background-color: #fafafa;
+	border: 1px solid #666;
+	color: #666;
+}
+#review-result-choose .notpasschosen{
+	background-color: #D14836;
+	border: 1px solid #B0281A;
+	color:#fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#notpass-reason{
+	position:relative;
+	top:-30px;
+	width:250px;
+	height:300px;
+}
+#notpass-reason p{
+	margin-left:20px;
+}
+#notpass-reason textarea{
+	height:340px;
+	width:230px;
+	margin-left:7px;
+}

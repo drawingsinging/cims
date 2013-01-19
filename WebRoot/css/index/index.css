@@ -1,0 +1,71 @@
+/*-------main-------*/
+#main{
+	background-color: #fff;
+	height: 550px;
+	width: 960px;
+	margin:10px auto;
+	border: 1px solid #DDD;
+}
+#main-left{
+	float: left;
+	width: 66%;
+	height: 520px;
+	
+}
+#main-right{
+	float: left;
+	width: 34%;
+	height: 520px;
+	
+}
+.panel{
+	margin:5px;
+	background-color: #fafafa;
+}
+#main-left .panel{
+	margin-right:0px;
+}
+.panel .part-header{
+	/*background: url(GrayPanel_Header_Bg.png) repeat-x 0 0;*/
+	height: 30px;
+	border: solid 1px #ccc;
+	background-color: #eee;
+	
+
+}
+.panel .part-body{
+	padding: 5px;
+border-left: solid 1px #E1E1E1;
+border-right: solid 1px #E1E1E1;
+min-height: 50px;
+	height:100px;
+	background-color: #fafafa;
+}
+.panel .part-footer{
+	border-bottom: solid 1px #E1E1E1;
+}
+.panel .part-title{
+	margin-top: 3px;
+	margin-left:-3px;
+	color:#fff;
+	font-size: 14px;
+	display: block;
+	width: 90px;
+	height: 24px;
+	background-color: #a22c24;
+	text-align: center;
+	line-height: 24px;
+
+}
+#notice .part-body{
+	height:350px;
+}
+#help .part-body{
+	height: 100px;
+}
+#fastenter .part-body{
+	height: 200px;
+}
+#infolist .part-body{
+	height:250px;
+}

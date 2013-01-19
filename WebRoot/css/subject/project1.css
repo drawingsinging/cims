@@ -1,0 +1,227 @@
+/*---main-content---*/
+#main {
+	height: 600px;
+}
+
+#main-content {
+	position: absolute;
+	background-color: #fafafa;
+	left: 5px;
+	margin: 5px 5px 0px 0px;
+	width: 948px;
+	height: 590px;
+	border: 1px solid #ddd;
+}
+
+#project-intro {
+	margin: 10px 20px 5px 20px;
+	height: 33px;
+	font-size: 14px;
+}
+
+#project-intro .project-intro-title {
+	float: left;
+	background: #ebebeb url("EMSystem/pic/review/jiantou.gif") no-repeat
+		left center;
+	width: 160px;
+	border: 1px solid #bbb;
+	line-height: 32px;
+	text-indent: 33px;
+	height: 32px;
+	font-weight: bold;
+	color: #585858;
+}
+
+#project-intro .project-intro-back {
+	margin-left: 20px;
+	float: left;
+	background-color: #D14836;
+	width: 60px;
+	border: 1px solid #D14836;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 5px; height : 32px;
+	font-size: 13px;
+	color: #FFF;
+	height: 32px;
+}
+
+#project-intro a:hover {
+	font-weight: bold;
+}
+
+#project-wrapper {
+	margin: 0px 20px 0px 20px;
+	width: 910px;
+	height: 500px;
+	
+}
+
+
+#project-nav{
+	width:910px;
+	height:30px;
+	margin-top:10px;
+	margin-left:20px;
+	border-bottom: 1px dotted #666;
+}
+
+#project-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#project-nav ul li {
+	
+	float: left;
+	overflow: hidden;
+	position: relative;
+	line-height: 30px;
+	text-align: center;
+	margin-right:20px;
+}
+
+#project-nav ul li a{
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+	border:1px dotted #666;
+	border-bottom:none;
+}
+#project-nav ul li.cur a{
+	color: #fff;
+	background: #a22c24;
+}
+#project-nav ul li a:hover{
+	color: #a22c24;
+	
+}
+#project-nav ul li.cur a:hover{
+	color:#fff;
+}
+
+#project-list {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#project-list table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 910px;
+	height: 69px;
+	background: #fff;
+}
+
+#project-list td a {
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.striped{
+	background:#f1f1f1;
+}
+.p_header {
+	height: 30px;
+	background: #d7ecf1;
+	color: #585858;
+}
+
+.p_item {
+	height: 30px;
+}
+
+.p_doc {
+	margin-left: 20px;
+	padding-left: 20px;
+	background: url("EMSystem/pic/review/doc.gif") no-repeat left center;
+}
+
+.p_do {
+	float: left;
+}
+
+.p_do:hover {
+	color: red;
+}
+
+.p_preview {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("EMSystem/pic/review/preview.gif") no-repeat left center;
+}
+
+.p_download {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("EMSystem/pic/review/download.gif") no-repeat left
+		center;
+}
+
+.p_edit {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("EMSystem/pic/review/edit.gif") no-repeat left center;
+}
+
+.p_delete {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("EMSystem/pic/review/delete.gif") no-repeat left center;
+}
+
+.p_review {
+	margin-left: 4px;
+	padding-left: 13px;
+	background: url("EMSystem/pic/review/goto.gif") no-repeat left center;
+}
+
+/*---table pager--*/
+.pager {
+float:right;
+padding:10px 10px 10px 100px;
+
+zoom: 1;
+line-height:150%;
+}
+.clearfix::after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.pager a, .pager span {
+background: none repeat scroll 0 0 white;
+border: 1px solid #E7ECF0;
+color: black;
+float: left;
+height: 22px;
+line-height: 22px;
+margin-right: 5px;
+overflow: hidden;
+text-align: center;
+text-decoration: none;
+width: auto;
+padding: 0 8px;
+}
+.pager .cur {
+border:none;
+background: 0;
+font-weight: bold;
+color: black;
+}
+.pager a:hover {
+background:#ccc;
+}
+.pager a:visited {
+color: black;
+}
+

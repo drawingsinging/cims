@@ -1,0 +1,211 @@
+
+#main-content {
+	background-color: #fafafa;
+	float: left;
+	margin: 5px 5px 5px 0px;
+	width: 740px;
+	height: 790px;
+	border: 1px solid #ddd;
+}
+#system-intro{
+	margin:10px 20px 5px 20px;
+	height:33px;
+	font-size: 14px;
+}
+#system-wrapper{
+	margin:10px 20px 0px 20px;
+	width:700px;
+	height:700px;
+	border-top: 5px solid #CCC;
+}
+#system-nav{
+	width:700px;
+	height:30px;
+	margin-top:10px;
+	border-bottom: 1px dotted #666;
+}
+
+#system-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#system-nav ul li {
+	
+	float: left;
+	overflow: hidden;
+	position: relative;
+	line-height: 30px;
+	text-align: center;
+	margin-right:20px;
+}
+
+#system-nav ul li a{
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+	border:1px dotted #666;
+	border-bottom:none;
+}
+#system-nav ul li.cur a{
+	color: #fff;
+	background: #a22c24;
+}
+#system-nav ul li a:hover{
+	color: #a22c24;
+	
+}
+#system-nav ul li.cur a:hover{
+	color:#fff;
+}
+
+#system-nav-edit{
+	width:700px;
+	height:30px;
+	margin-top:10px;
+	border-bottom: 1px dotted #666;
+}
+#system-nav-edit p{
+	position:relative;
+	top:1px;
+	line-height: 30px;
+	text-align: center;
+	width: 100px;
+	font-size: 14px;
+	background: #a22c24;
+	color: #fff;
+	
+	
+}
+
+
+
+
+
+#system-users-list{
+	width:700px;
+	height:500px;
+	font-size: 14px;
+	
+}
+#system-users-list table{
+	margin:0 auto;
+	 border-collapse: collapse;
+	  width:700px;
+	   background:#fff;
+}
+#system-users-list td a{
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.s_header {
+height: 25px;
+background: #D7ECF1;
+color: #585858;
+}
+.s_do:hover{
+	color:red;
+}
+.s_item {
+	height: 25px;
+}
+.s_edit{
+	float:left;
+	margin-left:10px;
+	padding-left:17px;
+	background:url("/EMSystem/pic/system/edit.gif") no-repeat left center;
+}
+.s_delete{
+	float:left;
+	margin-left:10px;
+	padding-left:17px;
+	background:url("/EMSystem/pic/system/delete.gif") no-repeat left center;
+}
+#system-users-add{
+	width:700px;
+	height:500px;
+	font-size: 14px;
+	
+}
+#system-users-list-table{
+	margin-top:10px;
+}
+
+
+/*---table pager--*/
+.pager {
+float:right;
+padding:10px 10px 10px 100px;
+
+zoom: 1;
+line-height:150%;
+}
+.clearfix::after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.pager a, .pager span {
+background: none repeat scroll 0 0 white;
+border: 1px solid #E7ECF0;
+color: black;
+float: left;
+height: 22px;
+line-height: 22px;
+margin-right: 5px;
+overflow: hidden;
+text-align: center;
+text-decoration: none;
+width: auto;
+padding: 0 8px;
+}
+.pager .cur {
+border:none;
+background: 0;
+font-weight: bold;
+color: black;
+}
+.pager a:hover {
+background:#ccc;
+}
+.pager a:visited {
+color: black;
+}
+
+
+/* about user edit*/
+#system-users-edit form{
+	margin-top:20px;
+	
+}
+.system-item{
+	width:100%;
+	height:30px;
+}
+.system-item label{
+	display: inline-block;
+	width: 100px;
+	line-height:30px;
+	text-align:right;
+	margin-right:5px;
+}
+.system-item .basic-input{
+	
+	width:200px;
+}
+/* about user add*/
+#system-users-add form{
+	margin-top:20px;
+	
+}
+

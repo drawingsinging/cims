@@ -1,0 +1,28 @@
+body,div,h1,h2,h3,h4,h5,p,a,span {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eee;
+	font: 12px/1.6 arial, helvetica, sans-serif;
+}
+
+/*---------header----------*/
+#header-wrapper {
+	background-color: #eee;
+	border-bottom: 2px solid #9b0d14;;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#main {
+	position:relative;
+	background-color: #fff;
+	height: 800px;
+	width: 960px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}

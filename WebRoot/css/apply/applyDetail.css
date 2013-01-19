@@ -1,0 +1,244 @@
+#main{
+	height:960px;
+	position:relative;
+}
+
+
+#main-content {
+	position:absolute;
+	background-color: #fafafa;
+	left:5px;
+	margin: 5px 5px 5px 0px;
+	width: 948px;
+	height: 950px;
+	border: 1px solid #ddd;
+}
+#apply-intro{
+	margin:10px 20px 5px 20px;
+	height:33px;
+	
+	font-size: 14px;
+}
+
+#apply-intro .apply-intro-title{
+	float:left;
+	background: #ebebeb url("/EMSystem/pic/apply/jiantou.gif") no-repeat left center ;
+	padding-right:20px;
+	border:1px solid #bbb;
+	
+	line-height:32px;
+	text-indent:33px;
+	height:32px;
+	font-weight:bold;
+	color:#585858;
+}
+
+#apply-intro .apply-intro-back {
+	margin-left: 20px;
+	float: left;
+	background-color: #D14836;
+	width: 60px;
+	border: 1px solid #D14836;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 5px; height : 32px;
+	font-size: 13px;
+	color: #FFF;
+	height: 32px;
+	text-decoration: none;
+}
+#apply-intro .apply-intro-back:hover {
+	font-weight: bold;
+}
+
+#apply-details-wrapper{
+	margin:10px 20px 0px 20px;
+	width:910px;
+	height:700px;
+	border-top: 5px solid #CCC;
+	
+	
+}
+
+
+#apply-details-single{
+	width:100%;
+	margin-top:10px;
+}
+#apply-details-single table{
+	margin:0 auto;
+	 border-collapse: collapse;
+	  width:910px;
+	   height:69px;
+	   background:#fff;
+}
+#apply-details-single td a{
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.a_header{
+	height:30px;
+	background:#d7ecf1;
+	color: #585858;
+}
+.a_item{
+	height:30px;
+}
+.a_doc{
+	margin-left:20px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/apply/doc.gif") no-repeat left center;
+}
+.a_do{
+	float:left;
+	
+}
+.a_do:hover{
+	color:red;
+	font-weight:bold;
+}
+.a_preview{
+	margin-left:20px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/apply/preview.gif") no-repeat left center;
+}
+.a_download{
+	margin-left:20px;
+	padding-left:20px;
+	background:url("/EMSystem/pic/apply/download.gif") no-repeat left center;
+}
+.a_edit{
+	margin-left:10px;
+	padding-left:17px;
+	background:url("/EMSystem/pic/apply/edit.gif") no-repeat left center;
+}
+.a_delete{
+	margin-left:10px;
+	padding-left:17px;
+	background:url("/EMSystem/pic/apply/delete.gif") no-repeat left center;
+}
+
+#apply-details-content{
+	
+	width:910px;
+	height:550px;
+	
+}
+
+#apply-iframe{
+	width:650px;
+	float:left;
+}
+
+#apply-iframe-nav {
+	margin-top: 20px;
+	width: 650px;
+	height: 30px;
+	padding-bottom: 1px;
+}
+
+
+#apply-iframe-nav ul {
+	list-style: none;
+}
+
+#apply-iframe-nav ul li {
+	float: left;
+	overflow: hidden;
+	line-height: 30px;
+	text-align: center;
+}
+
+#apply-iframe-nav ul li span {
+	
+	
+	display: block;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	border: 1px solid #AAA; 
+	border-bottom: none;
+	color : #444;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+	background:#eee;
+}
+
+#apply-iframe-nav ul li span.rin-highlight {
+	font-weight:bold;
+	background:#fff;
+}
+
+#apply-result{
+	width:240px;
+	float:left;
+	margin:20px 0px 0px 20px;
+	font-size:14px;
+}
+#apply-result-content{
+	
+	height:400px;
+	
+}
+#apply-result-content-nav{
+	height:30px;
+	border-bottom: 1px solid #AAA; 
+	font-weight:bold;
+}
+#apply-result-content-nav p{
+	
+	width:80px;
+	border:1px solid #AAA; 
+	border-bottom:none;
+	height:29px;
+	text-align: center;
+	line-height:29px;
+	background-color:#fff;
+}
+#apply-result-content-main{
+	border:1px solid #AAA; 
+	border-top:none;
+	height:410px;
+}
+#apply-result-content-main p{
+	float:left;
+	width:80px;
+	padding:20px 0px 0px 10px;
+}
+#apply-resubmit-button{
+	float:left;
+	display:block;
+	height:30px;
+	width:100px;
+	background-color: #D14836;
+	border: 1px solid #B0281A;
+	color:#fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	margin-left: 20px;
+	margin-top: 15px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px; height : 32px;
+	font-size: 13px;
+	text-decoration: none;
+}
+#apply-result-content-text{
+	height:340px;
+	width:210px;
+	margin-left:10px;
+	float:left;
+}
+#apply-result-content-text textarea{
+	height:300px;
+	width:210px;
+	
+}
+#apply-result-content-text p{
+	float:none;
+	width:100%;
+	padding:20px 0px 0px 00px;
+	font-size:12px;
+}
