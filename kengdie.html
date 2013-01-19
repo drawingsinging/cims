@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kengdie.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+     <h1>我总结的github坑爹使用教程 from liuqi</h1>
+     <p>建议，看官方文档：如果遇到不能忍的问题，可以看这里的赖过去的方法。如果本文档有任何sb的地方，请配好环境后，edit it,commit and push这份文档。</p>
+     <ul>
+     <li>
+     	github官方使用教程<a href="https://help.github.com/">https://help.github.com/</a>
+     </li>
+     <li>
+     	egit使用教程<a href="http://wiki.eclipse.org/EGit/User_Guide">http://wiki.eclipse.org/EGit/User_Guide</a></li>
+     </ul>
+     <h2>第一步:安装git</h2>
+     <h3>1:去git官方网站下载<a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a>，在downlod中选择win下载windows版本。</h3>
+     <p>如果访问不了，请翻墙。在百度搜索psiphon3，找到最新版下载，好像第一个就是。</p>
+     <p>基本上一路next，默认就可以。网上也有一些教程，有一些选项的建议。可以搜一下。</p>
+     <h3>2.按照官方指南配置git</h3>
+     <P>一些基本配置，很多高级配置我也不懂。也可以自己找中文的看，譬如<a href="http://www.infoq.com/cn/news/2011/01/git-adventures-install-config">http://www.infoq.com/cn/news/2011/01/git-adventures-install-config</a>。</P>
+  	<p>安装egit以后也可以在eclipse下修改配置</p>
+  	<h2>第二步:安装egit</h2>
+  	<p>在myeclipse中选择MyEclipse--&gt;MyEclipse Configration Center--&gt;software--&gt;上搜索egit选择collaboraton中的eclipse egit安装。</p>
+  	<p>也可以去egit的官网找，不过貌似不提供下载连接。</p>
+  	 <p>配置egit。这一步与git配置略重复。</p>
+  	 <p>打开Preferences &gt; Team &gt; Git &gt; Configuration，点击 New Entry ，新建一个键值对</p>
+  	 <p>key(user.name)value("your name")和key(user.email)("your email")</p>
+  	 <p>这个操作和git bash中  git config  –global user.name  “your name” 和  git config  –global user.email  you@example.com的配置是一样的</p>
+  	 <p>打开环境变量，新建一个HOME，变量值输入"%USERPROFILE%"或者其他一个路径</p>
+  	 <p>提供几个参考连接：</p>
+  	 <p><a href="http://jiangli.easymorse.com/?p=783">Eclipse安装git插件EGithttp://jiangli.easymorse.com/?p=783</a></p>
+  	 <h2>注册github</h2>
+  	 <p>这个不多谈，访问不了翻墙。<a href="https://github.com"></a>https://github.com</p>
+  	 <p>之后最好先自己 create a repo体验一下。</p>
+  	 <h2>eclipse上讲一个项目push到自己建的repo中</h2>
+  	 <p>选择一个工程，点击右键，Team-&gt;Share Project，选择git</p>
+  	 <p>选择Use or create repository in parent folder…,进入选择Create Repository对这个工程初始化一个git版本库，如果这个工程已经在于一个版本库的工作树上的话，这个版本库会自动选择.也可以不选择这个，找个地方存着。</p>
+  	 <p>对工程点击右键，选择team，会出来git的命令，选择commit，然后选择你要提交的文件，加上提交留言，点击commit，完成提交。</p>
+  	 <p>这样将项目commit到了本地</p>
+  	 <p>然后选择team--remote--push,在Destination Git Repository中url填你创建的那个repo的https地址。这里不用网上的ssh方法，那个麻烦一些。然后next</p>
+  	 <p>点那个Add All brench  spec,next</p>
+  	 <p>这时候继续几步next貌似，不出现错误的话就成功了。<p>
+  	 <p>更有可能环境还没配好。</p>
+  	 <p>出现问题的话，自己查一下吧，我也忘了有哪些问题了，到时候去google。或者问我，我应该也遇到过错误</p>
+  	 <p>如果出现Non-fast-forward错误。大概意思是git仓库中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。</p>
+  	 <p>方法一：强行push。（不推荐）</p>
+  	 <p>方法二：先pull下来，是本地版本和remote端一样，再push。</p>
+  	 
+  </body>
+</html>
