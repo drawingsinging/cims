@@ -1,57 +1,30 @@
-h1 {
-color: #494949;
-display: block;
-font-size: 18px;
-font-weight: bold;
-line-height: 1.1;
-margin: 0;
-padding: 0 0 30px;
-
+#login-body{
+	background-color:#fafafa;
 }
-#wrap{
-	width: 900px;
-	
-	margin:0 auto;
-}
-#header-logo img{
+#login-logo{
 	height:120px;
+	margin-left:20px;
 }
-#main{
+#login-main{
+	background:url("/EMSystem/pic/login/login-2-2.png") no-repeat 0 0;
+	height:460px;
+}
+#login-form{
+	margin-left:450px;
+	margin-top:50px;
+	height: 200px;
+
+}
+.p-center{
+	font-size: 12px;
+	text-align: center;
+	color:grey;
+	margin-top:5px;
+}
+.rewidth{
 	width:900px;
-	position: relative;
 }
-#login{
-	position:absolute;
-	right:150px;
-	top:50px;
-}
-#login input {
-margin: 5px 0;
-vertical-align: middle;
-}
-label{
-	display: inline-block;
-	width: 50px;
-}
-.basic-input {
-border: 1px solid #111;
-width: 178px;
-height: 25px;
-}
-.submit{
-
-}
-
-#footer{
-
-	margin:0 auto;
-}
-#footer p{
-	color: #999;
-text-align: center;
-font-size: 12px;
-font-style: normal;
-font-variant: normal;
-font-weight: normal;
-font-family: Arial, Helvetica, sans-serif;
+.login_description{
+	width:160px;
+	margin-left:180px;
 }
