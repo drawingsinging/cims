@@ -15,6 +15,6 @@ Shandong university charging items management system
 
 
 1.开始阅读琪哥和灏哥已经完成进度的源码.初步了解Github工作流程
-  (注意! kengdie.html 教程中最后步骤中有多处不严谨的地方,会在自己的Fork中进行修改.)
+  (注意! kengdie.html 教程中最后步骤中有多处不严谨的地方= =!,会在自己的Fork中进行修改.)
 
 2.修改后的部分(kengdie.html教程)已经提交.
